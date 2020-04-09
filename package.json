@@ -1,0 +1,29 @@
+{
+  "name": "e2e-tests",
+  "version": "1.4.0",
+  "private": true,
+  "description": "",
+  "main": "index.js",
+  "engines": {
+    "node": ">=12.14.0",
+    "npm": ">=6.13.4"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "glob": "7.1.3",
+    "pretty": "2.0.0",
+    "request-promise": "4.2.2",
+    "testcafe": "1.8.3",
+    "testcafe-browser-provider-browserstack": "1.12.0",
+    "testcafe-browser-tools": "2.0.10"
+  },
+  "devDependencies": {
+    "axe-testcafe": "1.1.0",
+    "babel-cli": "6.26.0",
+    "babel-eslint": "10.0.1",
+    "babel-preset-flow": "6.23.0",
+    "browserstack-local": "1.3.6",
+    "dotenv": "6.0.0"
+  }
+}
